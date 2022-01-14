@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* header style */
+h1 {
+  font-size: 50px;
+}
+.h3 {
+  text-align: center;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  height: 70%;
+  width: 70%;
+}
+.button {
+  background-color: rgb(250, 7, 88);
+  color: white;
+  height: 30px;
+  width: 120px;
+  border-radius: 15px;
+}
+.product-container {
+  justify-content: center;
+  padding: 10%;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.product img {
+  width: 100%;
+}
+.product {
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 5px #888888;
+}
+
+.new-line {
+  display: block;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: gold;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
